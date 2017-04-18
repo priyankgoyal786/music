@@ -15,4 +15,3 @@ class Genres(models.Model):
     name = models.CharField(max_length=200, default=0, null=True, blank=True)
     genre = models.ForeignKey(Music, related_name='genres',null=True,blank=True)
 
-# company = models.ForeignKey(Company, related_name='contact')

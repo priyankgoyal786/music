@@ -21,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/musicapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/musicapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+            <state relative-caret-position="255">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -48,7 +48,7 @@
       <file leaf-file-name="show_music_track.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/show_music_track.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
+            <state relative-caret-position="1595">
               <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
               <folding />
             </state>
@@ -58,8 +58,8 @@
       <file leaf-file-name="add_music_track.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/add_music_track.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+            <state relative-caret-position="825">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -80,9 +80,9 @@
         <option value="$PROJECT_DIR$/musicproject/settings.py" />
         <option value="$PROJECT_DIR$/musicproject/urls.py" />
         <option value="$PROJECT_DIR$/templates/show_music_track.html" />
-        <option value="$PROJECT_DIR$/musicapp/models.py" />
-        <option value="$PROJECT_DIR$/templates/add_music_track.html" />
         <option value="$PROJECT_DIR$/musicapp/views.py" />
+        <option value="$PROJECT_DIR$/templates/add_music_track.html" />
+        <option value="$PROJECT_DIR$/musicapp/models.py" />
       </list>
     </option>
   </component>
@@ -563,9 +563,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/musicapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/show_music_track.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="1595">
           <caret line="116" column="0" selection-start-line="116" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
           <folding />
         </state>
@@ -573,28 +583,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/add_music_track.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="41" column="64" selection-start-line="41" selection-start-column="64" selection-end-line="41" selection-end-column="64" />
+        <state relative-caret-position="825">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/musicapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        <state relative-caret-position="255">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/musicapp/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="58" column="43" selection-start-line="58" selection-start-column="43" selection-end-line="58" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
