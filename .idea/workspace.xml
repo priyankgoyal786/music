@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="734c24fb-c11c-4d02-b2b7-acec6166391e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicapp/views.py" afterPath="$PROJECT_DIR$/musicapp/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/add_genres.html" afterPath="$PROJECT_DIR$/templates/add_genres.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/edit_genres.html" afterPath="$PROJECT_DIR$/templates/edit_genres.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/show_genres.html" afterPath="$PROJECT_DIR$/templates/show_genres.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/show_music_track.html" afterPath="$PROJECT_DIR$/templates/show_music_track.html" />
-    </list>
+    <list default="true" id="734c24fb-c11c-4d02-b2b7-acec6166391e" name="Default" comment="" />
     <ignored path="musicproject.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
