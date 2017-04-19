@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="734c24fb-c11c-4d02-b2b7-acec6166391e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/musicapp/models.py" afterPath="$PROJECT_DIR$/musicapp/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/add_music_track.html" afterPath="$PROJECT_DIR$/templates/add_music_track.html" />
     </list>
     <ignored path="musicproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/musicapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -59,7 +57,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add_music_track.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="add_music_track.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/add_music_track.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="512">
@@ -88,8 +86,8 @@
         <option value="$PROJECT_DIR$/musicproject/urls.py" />
         <option value="$PROJECT_DIR$/templates/show_music_track.html" />
         <option value="$PROJECT_DIR$/musicapp/views.py" />
-        <option value="$PROJECT_DIR$/musicapp/models.py" />
         <option value="$PROJECT_DIR$/templates/add_music_track.html" />
+        <option value="$PROJECT_DIR$/musicapp/models.py" />
       </list>
     </option>
   </component>
@@ -646,21 +644,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/musicapp/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/add_music_track.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="512">
           <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/musicapp/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="78" selection-start-line="10" selection-start-column="78" selection-end-line="10" selection-end-column="78" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
