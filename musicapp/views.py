@@ -11,16 +11,16 @@ from django.core.urlresolvers import reverse
 class Add_Music_Details(View):
 
     def get(self, request):
-        genre = Music.objects.filter(type=1)
+        genre = Genres.objects.all()
 
-        return render(request, 'show_music_track.html',{'genre':genre})
+        return render(request, 'add_music_track.html',{'genre':genre})
 
 
     def post(self, request):
         title = request.POST['title']
         genre = request.POST['genre']
         rating = request.POST['rating']
-
+        print genre ,'genres'
 
         Music(title=title,genre=genre,rating=rating).save()
         return HttpResponseRedirect(reverse('music_show'))
@@ -44,7 +44,7 @@ class EditMusicTrackDetails(View):
 
 def MusicTrackDetails(request):
     music = Music.objects.all()
-
+    # genres =Genres.objects.all()
     return render(request, 'show_music_track.html', {'music': music})
 
 class Add_Genres_Details(View):
@@ -56,7 +56,7 @@ class Add_Genres_Details(View):
         name = request.POST['name']
         genre = request.POST['genre']
 
-        Music(name=name,genre=genre).save()
+        Genres(name=name,genre=genre).save()
         return HttpResponseRedirect(reverse('genres_show'))
 
 class EditGenresDetails(View):
@@ -67,9 +67,9 @@ class EditGenresDetails(View):
 
     def post(self, request, id):
         name = request.POST['name']
-        genres = request.POST['genres']
+        genre = request.POST['genre']
 
-        Music.objects.filter(id=id).update(name=name,genres=genres)
+        Genres.objects.filter(id=id).update(name=name,genre=genre)
 
 
         return HttpResponseRedirect(reverse('genres_show'))

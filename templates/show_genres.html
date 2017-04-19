@@ -84,10 +84,10 @@ border: 1px solid black;
 </header>
 
 <table >
-    {% for get_datas in get_data %}
+    {% for get_datas in genres %}
     <tr>
         <td>
-            {{ get_datas.name }}
+            <a href="/editgenres/{{ get_datas.id }}/" target="_blank">{{ get_datas.genre }}</a>
         </td>
     </tr>
     {% endfor %}

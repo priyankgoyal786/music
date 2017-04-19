@@ -105,14 +105,16 @@ input[type=text]:focus {
     <input type="text" name="search" id="get-search-data" placeholder="Search Title.."><button id="get-search">Search</button>
 <p>
 <table id="data-append">
-    {% for get_datas in get_data %}
+    {% for get_datas in music %}
 <tr>
     <td>
         <a href="/editmusic/{{ get_datas.id }}/" target="_blank">{{ get_datas.title }}</a>
     </td>
 
     <td>
-        {{ get_datas.genres }}
+{#         {% for get_data in genres %}#}
+            {{ get_datas.genres.genre }}
+{#         {% endfor %}   #}
     </td>
 
     <td>
