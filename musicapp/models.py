@@ -8,10 +8,11 @@ from django.contrib.auth.models import User
 
 class Music(models.Model):
     title = models.CharField(max_length=200, default=0, null=True, blank=True)
-    genres = models.CharField(max_length=200, default=0, null=True, blank=True)
+    genres = models.ForeignKey(Genres, related_name='genres',null=True,blank=True)
     rating = models.CharField(max_length=300, default=0, null=True, blank=True)
 
 class Genres(models.Model):
     name = models.CharField(max_length=200, default=0, null=True, blank=True)
-    genre = models.ForeignKey(Music, related_name='genres',null=True,blank=True)
+    genre = models.CharField(max_length=200, default=0, null=True, blank=True)
+
 

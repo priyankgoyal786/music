@@ -41,12 +41,12 @@
 
                                                <select id="genre" class="form-control  choose-credits" name="genre">
                                                     <option value="">--Select Genres name--</option>
-                                                    {% for genre in genre %}
+                                                    {% for genres in genre %}
 
-                                                    {% if genres.genre.id == genre.id %}
-                                                    <option value="{{genre.id}}" selected>{{ genre.genres}}</option>
+                                                    {% if genres.genre.id == genres.id %}
+                                                    <option value="{{genres.id}}" selected>{{ genres.genre}}</option>
                                                     {% else %}
-                                                    <option value="{{genre.id}}">{{ genre.genres}}</option>
+                                                    <option value="{{genres.id}}">{{ genres.genre}}</option>
                                                     {% endif %}
                                                     {% endfor %}
                                                 </select>
