@@ -21,24 +21,24 @@
                                     Title <span class="symbol required"></span>
                                 </label>
                                 <input type="text" placeholder="Enter Title" class="form-control"
-                                       id="title" name="title" value="{{ getdata.title }}">
+                                       id="title" name="title" value="{{ music.title }}">
                             </div>
+                            <div class="form-group">
+                                <label class="control-label">
+                                    Genres <span class="symbol required"></span>
+                                </label>
+                                <input type="text" placeholder="Enter Genres " class="form-control"
+                                       id="genres" name="genres" value="{{ music.genres.genre }}">
 
+                            </div>
                             <div class="form-group">
                                 <label class="control-label">
                                     Rating <span class="symbol required"></span>
                                 </label>
                                 <input type="text" placeholder="Enter Rating " class="form-control"
-                                       id="rating" name="rating" value="{{ getdata.rating }}">
+                                       id="rating" name="rating" value="{{ music.rating }}">
                             </div>
-                            <div class="form-group">
-                                <label class="control-label">
-{#                                    Genres <span class="symbol required"></span>#}
-                                </label>
-                                <input type="hidden" placeholder="Enter Genres " class="form-control"
-                                       id="genres" name="genres" value="{{ getdata }}">
 
-                            </div>
 {#                            {% endfor %}#}
 
 

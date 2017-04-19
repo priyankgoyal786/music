@@ -20,9 +20,8 @@ class Add_Music_Details(View):
         title = request.POST['title']
         genre = request.POST['genre']
         rating = request.POST['rating']
-        print genre ,'genres'
 
-        Music(title=title,genre=genre,rating=rating).save()
+        Music(title=title,genres_id=genre,rating=rating).save()
         return HttpResponseRedirect(reverse('music_show'))
 
 
@@ -37,7 +36,7 @@ class EditMusicTrackDetails(View):
         genres = request.POST['genres']
         rating = request.POST['rating']
 
-        Music.objects.filter(id=id).update(title=title,genres=genres,rating=rating)
+        Music.objects.filter(id=id).update(title=title,genres_id=genres,rating=rating)
 
 
         return HttpResponseRedirect(reverse('music_show'))

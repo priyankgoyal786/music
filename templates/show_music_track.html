@@ -112,9 +112,7 @@ input[type=text]:focus {
     </td>
 
     <td>
-{#         {% for get_data in genres %}#}
             {{ get_datas.genres.genre }}
-{#         {% endfor %}   #}
     </td>
 
     <td>
@@ -149,23 +147,7 @@ function redirect() {
     });
 
 }
-{#    $("#get-search").click(function(){#}
-{#console.log('lllllllllllllllllllll')#}
-{#    $.ajax({url: "/get_title_data/",#}
-{#        data:{'get-data':$('#get-search-data').val()}#}
-{#        ,success: function(result){#}
-{#            data=JSON.parse(result)#}
-{#            console.log(data)#}
-{#            html=''#}
-{#            for(i=0;i<data.results.length;i++){#}
-{#               html+='<tr><td>'+data.results[i].title+'</td> <td>['#}
-{#                for(j=0;j<data.results[i].genres.length;j++){#}
-{#                   html+=data.results[i].genres[j].name+'|'#}
-{#                }#}
-{#                html+=']</td><td>'+data.results[i].rating+'</td> </tr>'#}
-{#            }#}
-{#            $('#data-append').empty()#}
-{#            $('#data-append').append(html)#}
+
 
      $("#get-search").click(function(){
 console.log('pkgoyal')
